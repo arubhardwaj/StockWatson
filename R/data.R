@@ -1,13 +1,15 @@
 #' THE CALIFORNIA TEST SCORE DATA SET
-#' This dataset contains data on test performance,
+#' @description This dataset contains data on test performance,
 #' school characteristics and student demographic backgrounds. The data used here are from all 420 K-6 and K-8 districts in
 #' California with data available for 1998 and 1999
 #'
-#'  @format {
-#'  \item{observation_n~r}{float, %9.0g}
-#'  \item{dist_cod}{float, %9.0g}
-#'  \item{county}{str18, %18s}
-#'  \item{district}{str53, %18s}
+#'@format
+#'\describe{
+#'  \item{observation_n~r}{Observation number}
+#'  \item{dist_cod}{district code}
+#'  \item{county}{County name}
+#'  \item{district}{District name}
+#'  \item{gr_span}{}
 #' ...
 #' }
 #'
@@ -76,5 +78,57 @@
 #' }
 #'
 "cig_ch10"
+
+
+#' Labour Characterstics
+#'
+#' @description
+#'Each month the Bureau of Labor Statistics in the U.S. Department of Labor conducts the
+#' ÒCurrent Population SurveyÓ (CPS), which provides data on labor force characteristics of
+#' the population, including the level of employment, unemployment, and earnings.
+#' Approximately 65,000 randomly selected U.S. households are surveyed each month.
+#' The sample is chosen by randomly selecting addresses from a database comprised of addresses
+#' from the most recent decennial census augmented with data on new housing units constructed after
+#' the last census.  The exact random sampling scheme is rather complicated (first small geographical                                                                        areas are randomly selected, then housing units within these areas randomly selected);
+#' details can be found in the Handbook of Labor Statistics and is described on the Bureau of
+#' Labor Statistics website (www.bls.gov). The survey conducted each March is more detailed
+#' than in other months and asks questions about earnings during the previous year.
+#' The statistics in Table 3.1 were computed using the March surveys.
+#' The CPS earnings data are for full-time workers, defined to be somebody employed more
+#' than 35 hours per week for at least 48 weeks in the previous year.
+#'
+#'
+#' @format The data frame contains following variables
+#' \describe{
+#'   \item{a_sex}{1 = Male, 2 = Female}
+#'   \item{year}{Year}
+#'   \item{ahe98}{CPS earnings for full time workers}
+#'   ...
+#' }
+#'
+#' @source  Bureau of Labor Statistics in the U.S. Department of Labor conducts the
+#' ÒCurrent Population SurveyÓ (CPS),
+#'
+"cps_ch3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

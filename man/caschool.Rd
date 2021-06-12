@@ -3,12 +3,16 @@
 \docType{data}
 \name{caschool}
 \alias{caschool}
-\title{THE CALIFORNIA TEST SCORE DATA SET
-This dataset contains data on test performance,
-school characteristics and student demographic backgrounds. The data used here are from all 420 K-6 and K-8 districts in
-California with data available for 1998 and 1999}
+\title{THE CALIFORNIA TEST SCORE DATA SET}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 420 rows and 18 columns.
+\describe{
+\item{observation_n~r}{Observation number}
+\item{dist_cod}{district code}
+\item{county}{County name}
+\item{district}{District name}
+\item{gr_span}{}
+...
+}
 }
 \source{
 \url{www.cde.ca.gov}
@@ -17,12 +21,8 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 caschool
 }
 \description{
-@format {
-\item{observation_n~r}{float, \%9.0g}
-\item{dist_cod}{float, \%9.0g}
-\item{county}{str18, \%18s}
-\item{district}{str53, \%18s}
-...
-}
+This dataset contains data on test performance,
+school characteristics and student demographic backgrounds. The data used here are from all 420 K-6 and K-8 districts in
+California with data available for 1998 and 1999
 }
 \keyword{datasets}
