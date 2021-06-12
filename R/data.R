@@ -7,6 +7,8 @@
 #' \item{dist_cod}{float, %9.0g}
 #' \item{county}{str18, %18s}
 #' \item{district}{str53, %18s}
+#' ...
+#'
 #' }
 #'
 #'

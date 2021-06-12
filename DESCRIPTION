@@ -1,6 +1,5 @@
 Package: StockWatson
-Title: Collection of all datasets used in Introduction to Econometrics
-by James H. Stock and Mark Watson.
+Title: Collection of all datasets used in Introduction to Econometrics by James H. Stock and Mark Watson.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Aru",
