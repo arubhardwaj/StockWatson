@@ -6,8 +6,7 @@ Authors@R:
            family = "Bhardwaj",
            role = c("aut", "cre"),
            email = "arubhardwaj@tuta.io"
-Description: Collection of all datasets used in Introduction to Econometrics
-by James H. Stock and Mark Watson.
+Description: Collection of all datasets used in Introduction to Econometrics by James H. Stock and Mark Watson.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
