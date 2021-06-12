@@ -1,6 +1,16 @@
 ## code to prepare `DATASET` dataset goes here
+# usethis::use_data(dataset, overwrite = TRUE)
 
 caschool <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/caschool.dta")
-usethis::use_data(caschool, overwrite = TRUE)
 cig_ch10 <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/cig85_95.dta")
-usethis::use_data(cig_ch10, overwrite = TRUE)
+cig85_95 <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/cig85_95.dta")
+cps_ch3 <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/cps_ch3.dta")
+fatality <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/fatality.dta")
+hmda_aer <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/hmda_aer.dta")
+hmda_sw <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/hmda_sw.dta")
+journals <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/journals.dta")
+oj <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/oj.dta")
+macrodat <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/macrodat.dta")
+mcas <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/mcas.dta")
+star_sw <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/star_sw.dta")
+webstar <- haven::read_dta("http://fmwww.bc.edu/ec-p/data/stockwatson/webstar.dta")
