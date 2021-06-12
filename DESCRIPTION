@@ -1,13 +1,14 @@
 Package: StockWatson
-Title: What the Package Does (One Line, Title Case)
+Title: Collection of all datasets used in Introduction to Econometrics
+by James H. Stock and Mark Watson.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Aru",
+           family = "Bhardwaj",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "arubhardwaj@tuta.io"
+Description: Collection of all datasets used in Introduction to Econometrics
+by James H. Stock and Mark Watson.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
